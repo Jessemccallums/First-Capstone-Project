@@ -2,28 +2,28 @@
 //  Speakers
 const speakers = [
     {
-      name: 'James Hetfiled',
-      title: 'Vocals and Rift Guitar',
-      image: 'person1.jpg',
-      bio: 'Main member of metallica since the beginning.',
+      name: 'Mr Salas.',
+      title: 'Popular polyglot from Mexico.',
+      image: 'mr-salas.jpg',
+      bio: 'Youtuber and teacher, polyglot from Mexico.',
     },
     {
-      name: 'Cliff Burton',
-      title: 'Bass and Vocals',
-      image: 'person2.jpg',
-      bio: 'Great Bassist but died on the road',
+      name: 'Luca Lampariello',
+      title: 'Popular polyglot from Italy',
+      image: 'luca-lampariello.jpg',
+      bio: 'Youtube and teacher, polyglot from Italy',
     },
     {
-      name: 'Kirk Hammet',
-      title: 'Main guitar and Guitar God',
-      image: 'person3.jpg',
-      bio: 'I learn to Play Guitar thanks to this guy here',
+      name: 'Ikenna',
+      title: 'Popular polyglot from United States',
+      image: 'ikenna-image.jpg',
+      bio: 'Youtuber and teacher, polyglot from United States',
     },
     {
-      name: 'Lars Ulrich',
-      title: 'Drumm and Vocals',
-      image: 'person4.jpg',
-      bio: 'This guy knows how to play a drumm.',
+      name: 'Lindie Botes',
+      title: 'Popular polyglot from South Africa',
+      image: 'lindie-botes.jpg',
+      bio: 'Youtuber and teacher, polyglot from South Africa.',
     },
   ];
   
@@ -33,7 +33,7 @@ const speakers = [
     speakersPlaceHolder.innerHTML += `
     <div class="person ${index > 1 ? 'mobile-hide' : ''}">
       <div class="person-graphic">
-        <img src="./assets/img/${speaker.image}" alt="" />
+        <img src="./IMG/${speaker.image}" alt="" />
       </div>
       <div class="person-info">
         <h4 class="person-name">${speaker.name}</h4>
