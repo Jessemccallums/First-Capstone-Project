@@ -203,3 +203,58 @@ section {
     inset-inline-start: 50%;
     margin-inline-start: -1.5rem;
 }
+
+
+#main-program .items {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  #main-program .item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: stretch;
+    background-color: #fff1;
+    padding: 1rem;
+    text-align: start;
+    flex-direction: column;
+  }
+  
+  #main-program .item-icon {
+    height: 3rem;
+    flex-grow: 0;
+  }
+  
+  #main-program .item-icon svg {
+    height: 100%;
+    color: white;
+  }
+  
+  #main-program .item-title {
+    color: rgb(236, 82, 66);
+    flex-grow: 1;
+    font-size: 1.5rem;
+  }
+  
+  #main-program .item-description {
+    color: white;
+    flex-basis: 55%;
+    font-weight: 500;
+  }
+  
+  #main-program .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background-color: rgb(236, 82, 66);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    align-self: center;
+  }
+  
