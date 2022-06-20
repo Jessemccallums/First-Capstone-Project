@@ -7,9 +7,6 @@
   display: flex;
 }
 
-#secondary-nav-bar .line-1 {
-  padding: 0.25rem;
-}
 
 #secondary-nav-bar .line-1 {
   display: flex;
@@ -17,7 +14,7 @@
   align-items: center;
   gap: 0.9rem;
   background-color: rgb(39, 42, 49);
-  padding-right: 15%;
+  padding: 0.25rem 15%;
 }
 
 * {
@@ -35,16 +32,13 @@
   width: 100%;
   max-width: 992px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-inline: auto;
   flex-direction: row;
-}
-
-#menu {
-  display: flex;
   justify-content: end;
 }
+
+
 
 #menu .a-text {
   text-decoration: none;
@@ -691,10 +685,10 @@ footer {
   }
 
   #hero-first .shape-background {
-    top: -11%;
-    inset-inline-start: 8rem;
+    top: 100%;
+    inset-inline-start: 5rem;
     width: 63%;
-    transform: rotate(45deg);
+    transform: rotate(186deg);
   }
 
   #hero-first {
