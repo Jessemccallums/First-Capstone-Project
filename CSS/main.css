@@ -611,13 +611,15 @@ section {
       .toggle-menu.invisible {
         transform: scale(0);
       }
+      #toggle-menu.active {
+        display: none;
+      }
       
 .mobile-menu {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0;
-    left: 0;
+    margin-top: -35%;
     width: 100vw;
     height: 100vh;
     transform: scale(0);
@@ -628,6 +630,7 @@ section {
   
   .mobile-menu.active {
     transform: scale(1);
+    position: static;
   }
   
   #close-btn {
