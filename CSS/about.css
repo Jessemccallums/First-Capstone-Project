@@ -150,41 +150,17 @@ h6 {
     color: rgb(236, 82, 66);
 }
 
-#hero-first h1 {
-    font-size: 3rem;
-    max-width: 45rem;
-    font-weight: 700;
-    text-shadow: 0.03em 0.03em 0.02em #0009;
-    text-align: center;
-    margin-left: 13%;
-}
+
 
 
 #hero-first .description {
     max-width: 30rem;
 }
 
-#hero-first .description {
-    border: 0.15rem solid rgb(208, 208, 208);
-    background-color: rgb(255, 255, 255);
-    padding: 1rem;
-    font-weight: 600;
-    max-width: 40rem;
-    margin-left: 17%;
-    text-align: center;
-}
 
 #hero-first h3 {
     font-size: 2rem;
     font-weight: 500;
-}
-
-#hero-first .location {
-    font-weight: 500;
-    font-size: 1.0rem;
-    max-width: 60%;
-    margin: auto;
-    text-align: center;
 }
 
 
@@ -640,21 +616,21 @@ section {
         display: none;
     }
 
-    #otherSfd {
+    #big-wrapped {
         display: flex;
         flex-direction: column;
         gap: 1rem;
         text-align: center;
       }
       
-      #otherSfd .other-programs {
+      #big-wrapped .other-programs {
         display: flex;
         flex-direction: row;
         gap: 1rem;
         margin: auto;
       }
       
-      #otherSfd .program {
+      #big-wrapped .program {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
@@ -665,7 +641,7 @@ section {
         overflow: hidden;
       }
       
-      #otherSfd .other-programs .program img {
+      #big-wrapped .other-programs .program img {
         position: absolute;
         inset: 0;
         object-fit: cover;
@@ -676,31 +652,58 @@ section {
         transition: 400ms ease-in-out;
       }
       
-      #otherSfd .other-programs .program:hover img {
+      #big-wrapped .other-programs .program:hover img {
         transform: scale(1);
         filter: blur(0.15rem);
       }
       
-      #otherSfd .other-programs .cover {
+      #big-wrapped .other-programs .cover {
         position: absolute;
         inset: 0;
         mix-blend-mode: multiply;
         background-color: rgb(158, 42, 29);
       }
       
-      #otherSfd .other-programs .program h3 {
+      #big-wrapped .other-programs .program h3 {
         font-size: 4rem;
         font-weight: 100;
         color: white;
         z-index: 1;
       }
       
-      #otherSfd .other-programs .program p {
+      #big-wrapped .other-programs .program p {
         color: white;
         z-index: 1;
         padding: 5%;
         text-decoration: none;
-      }      
+      } 
+      
+      #hero-first h1 {
+        font-size: 3rem;
+        max-width: 45rem;
+        font-weight: 700;
+        text-shadow: 0.03em 0.03em 0.02em #0009;
+        text-align: center;
+        margin-left: 13%;
+    }
+
+    #hero-first .description {
+        border: 0.15rem solid rgb(208, 208, 208);
+        background-color: rgb(255, 255, 255);
+        padding: 1rem;
+        font-weight: 600;
+        max-width: 40rem;
+        margin-left: 17%;
+        text-align: center;
+    }
+
+    #hero-first .location {
+        font-weight: 500;
+        font-size: 1.0rem;
+        max-width: 60%;
+        margin: auto;
+        text-align: center;
+    }
     
 }
 
@@ -715,24 +718,28 @@ section {
     }
 
     #hero-first {
-        background-color: rgb(247, 247,247);
+        background-color: rgb(255, 255, 255);
         padding-top: 6rem;
         padding: none;  
     }
 
     #hero-first .shape-background {
-        top: 99%;
-        inset-inline-start: 5rem;
-        width: 77%;
+        top: -11%;
+        inset-inline-start: 8rem;
+        width: 63%;
+        transform: rotate(45deg);
     }
     #hero-first {
         padding: 7rem 1rem;
         margin-top: -19%;
+        background-color: rgb(255, 255, 255);
+        
     }
     #main-program .items {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 0.2rem;
+        align-items: center;
       }
 
       #main-program-version .items {
@@ -830,7 +837,93 @@ section {
     margin: 7%;
   }
   .menu-version {
-    background-color: rgb(247, 247,247);
+    background-color: rgb(255, 255, 255);
+  }
+
+  
+  #big-wrapped {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
   }
   
+  #big-wrapped .other-programs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: auto;
+  }
+  
+  #big-wrapped .program {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 10rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #big-wrapped .other-programs .program img {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.05);
+    transition: 400ms ease-in-out;
+  }
+  
+  #big-wrapped .other-programs .program:hover img {
+    transform: scale(1);
+    filter: blur(0.15rem);
+  }
+  
+  #big-wrapped .other-programs .cover {
+    position: absolute;
+    inset: 0;
+    mix-blend-mode: multiply;
+    background-color: rgb(158, 42, 29);
+  }
+  
+  #big-wrapped .other-programs .program h3 {
+    font-size: 4rem;
+    font-weight: 100;
+    color: white;
+    z-index: 1;
+  }
+  
+  #big-wrapped .other-programs .program p {
+    color: white;
+    z-index: 1;
+    padding: 5%;
+    text-decoration: none;
+  } 
+
+  #hero-first h1 {
+    font-size: 1.9rem;
+    max-width: 45rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#hero-first .description {
+    border: 0.15rem solid rgb(208, 208, 208);
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-weight: 600;
+    max-width: 40rem;
+    text-align: center;
+}
+  
+#hero-first .location {
+    font-weight: 500;
+    font-size: 1.0rem;
+    margin: auto;
+    text-align: center;
+}
+
 }
