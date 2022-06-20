@@ -614,12 +614,14 @@ footer {
   }
 
   .menu-items li a {
-    font-size: 24px;
+    font-size: 45px;
     color: #fff;
     text-decoration: none;
     justify-content: space-around;
     align-content: center;
     align-items: center;
+    font-weight: 300;
+    font-family: Lato, serif;
   }
 
   .toggle-menu {
