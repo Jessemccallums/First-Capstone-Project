@@ -15,6 +15,10 @@
 
 [Link to the live project](https://jessemccallums.github.io/First-Capstone-Project/index.html#program)
 
+## Link to Loom video 
+
+[Link to the loom video](https://www.loom.com/share/529e049e7041434dba759577a9952984)
+
 ## Authors
 
 👤 **Author: Jesse McCallums**
